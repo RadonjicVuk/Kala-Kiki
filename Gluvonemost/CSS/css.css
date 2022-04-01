@@ -1,0 +1,226 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.container{
+    max-width: 75%;
+    text-align:center;
+    margin-left:10%;
+}
+
+.glavninaslov{
+    text-align: center;
+    background-color:black;
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pola{
+    display: inline;
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sporedninaslov{
+    padding-top:25px;
+    padding-left:30px;
+    font-size: 60px;
+}
+
+.sporednitext{
+    font-size: 35px;
+    padding-top: 15px;
+    
+}
+
+.slika{
+    padding-top: 15px;
+    height: 50%;
+    width: 50%;
+    display: inline-flex;
+    text-align: center;
+}
+
+.slikatext{
+    margin-top:25%;
+    margin-left:10%;   
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgb(0, 0, 179);
+    color:white;
+    display:inline-flex;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 179);
+    text-decoration: none;   
+    transition: 0.3s;
+}
+
+.slikatext:hover{
+    margin-top:25%;
+    display:inline-flex;   
+    font-size: 30px;
+    padding: 5px;
+    background-color: white;
+    color:blue;
+    display:inline-flex;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 179);
+}
+
+
+.slikaa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.gas{
+    margin: 50px;
+}
+
+.slikatexta:hover{    
+    font-size: 30px;
+    padding: 5px;
+    background-color: white;
+    color:blue;
+    display:inline;
+    text-align: center;
+    border-radius: 5px;
+    border-color: aquamarine;
+    text-decoration: none;
+}
+
+.slikatexta{
+
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    display:inline;
+    text-align:center;
+    border: 1px;
+}
+
+.slikatexta:hover a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.slikatexta a{
+    text-decoration: none;
+    color: white;
+}
+
+.glavninaslov a{
+    color:white;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.glavninaslov a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.dugme{
+    font-size: 30px;
+    text-align:center ;
+    margin-left: 30px;
+    margin-right: 25px;
+    display: inline-block;
+    padding: 25px;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    transition:0.3s;
+    border: 1px solid black;
+}
+
+.dugme:hover{
+    font-size: 30px;
+    text-align:center ;
+    margin-left: 30px;
+    margin-right: 25px;
+    display: inline-block;
+    padding: 25px;
+    background-color:white;
+    color:black;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.dole{
+    margin-top:60px;
+    padding: 50px;
+}
+
+.glavninaslov div{
+    transition: 0.5s;
+    padding-left:0 !important;
+}
+.glavninaslov div:hover{
+    background-color: white;
+    color:black;
+}
+.center{
+    margin-left:7% ;
+}
+.header{
+    background-color: #7C99AC;
+    color: #fff;
+    height: 100px;
+}
+
+.pocetak{
+    padding-top: 40px;
+    padding-left: 300px;
+}
+
+.header .link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.header .link:hover{
+    font-size: 100px;
+}
+
+.test  {
+    padding-left: 700px;
+}
+
+.test .link{
+    margin-right: 15px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1160px) {
+    .sporedninaslov{
+        padding-top:25px;
+        padding-left:30px;
+        font-size: 30px;
+    }
+    .sporednitext{
+        font-size: 25px;
+        padding-top: 7px;      
+    }
+    .slika{
+        padding-top: 15px;
+        padding-left: 25%;
+        height: 50%;
+        width: 50%;
+        display: inline;
+        text-align: center;
+    }
