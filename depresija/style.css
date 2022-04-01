@@ -1,0 +1,130 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #D3DEDC;
+}
+.header{
+  background-color: #7C99AC;
+  color: #fff;
+  height: 100px;
+}
+
+.pocetak{
+  padding-top: 40px;
+  padding-left: 300px;
+}
+
+.header .link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 23px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.test  {
+  padding-left: 700px;
+}
+
+.test .link{
+  margin-right: 15px;
+  padding: 10px;
+}
+.naslov{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 60px;
+  color:#22577E;
+}
+#slika{
+  width: 500px;
+  height: 500px;
+  display: block;
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.button{
+  border:none;
+  border-radius: 50%;
+  background-color: #7C99AC;
+  color: white;
+  padding: 32px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left:45%;
+  margin-bottom: 60px;
+}
+.button:hover {
+  background-color: #22577E;
+  color:white;
+}
+.tekst{
+  color:black;
+  font-size: 30px;
+  padding-top: 70px;
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.naslov2{
+  font-size: 40px;
+  margin-left: 100px;
+  padding-top: 70px;
+}
+.naslov3{
+  font-size: 40px;
+  margin-left: 100px;
+  padding-top: 70px;
+}
+.nabrajanje{
+  padding-top: 70px;
+  margin-left: 125px;
+  font-size: 30px;
+}
+.naslov4{
+  font-size: 80px;
+  text-align: center;
+  padding-top: 70px;
+}
+.footer{
+  background-color: #7C99AC;
+  height: 100px;
+}
+/*@media only screen and (min-width: 10px)and (max-width: 768px) {
+  #slika{
+    width: 10px;
+    height: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px)and (max-width: 1040px) {
+  #slika{
+    width: 10px;
+    height: 20px;
+  }
+}
+
+@media only screen and (min-width: 1040px) and (max-width: 1200px) {
+  #slika{
+    width: 10px;
+    height: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 50000px) {
+  #slika{
+    width: 10px;
+    height: 20px;
+  }
+}*/
