@@ -174,37 +174,6 @@
 .center{
     margin-left:7% ;
 }
-.header{
-    background-color: #7C99AC;
-    color: #fff;
-    height: 100px;
-}
-
-.pocetak{
-    padding-top: 40px;
-    padding-left: 300px;
-}
-
-.header .link{
-    text-decoration: none;
-    color: #fff;
-    font-size: 23px;
-    padding: 10px;
-    transition: 0.5s;
-}
-
-.header .link:hover{
-    font-size: 100px;
-}
-
-.test  {
-    padding-left: 700px;
-}
-
-.test .link{
-    margin-right: 15px;
-    padding: 10px;
-}
 
 @media only screen and (max-width: 1160px) {
     .sporedninaslov{
