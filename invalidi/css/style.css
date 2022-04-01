@@ -3,14 +3,32 @@
     padding: 0;
 }
 
-.background{
-    background-color: #D3DEDC;
+.main-menu{
+    list-style: none;
 }
 
-.header{
-    height: 0px;
-    color: #fff;
-    padding-top: 25px;
+.header .main-menu li a{
+    color: #787374;
+    text-transform: uppercase;
+}
+
+.header .main-menu li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header .preheader li{
+    font-size:1.1cm;
+    background-color: #26e60d;
+    list-style: none;
+    text-align: center;
+}
+
+.header .preheader2 li{
+    font-size:1.1cm;
+    background-color: #e60d0d;
+    list-style: none;
+    text-align: center;
 }
 
 .slika{
