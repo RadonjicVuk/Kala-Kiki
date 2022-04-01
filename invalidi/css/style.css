@@ -34,7 +34,6 @@
 .slika{
     padding-top: 25px;
     text-align: center;
-    background-color:#bef1f1;
 }
 
 .slika img{
@@ -45,9 +44,89 @@
 .opis{
     padding-top: 25px;
     text-align: center;
-    background-color:#bef1f1;
     font-size:0.7cm;
     list-style: none;
     text-align: center;
     color: #000000;
+}
+.dugme{
+    font-size: 30px;
+    text-align:center ;
+    margin-top: 10px;
+    margin-left: 25%;
+    display: inline-block;
+    padding: 25px;
+    background-color: #7C99AC;
+    color:white;
+    text-decoration: none;
+    transition:0.3s;
+    border: 1px solid #7C99AC;
+    width: auto;
+}
+
+.dugme:hover{
+    margin-left: 25%;
+    font-size: 30px;
+    text-align:center ;
+    display: inline-block;
+    padding: 25px;
+    background-color:white;
+    color:#7C99AC;
+    text-decoration: none;
+    width: auto;
+    margin-top: 10px;
+    border: 1px solid #7C99AC;
+}
+
+@media only screen and (min-width: 10px)and (max-width: 768px) {
+    .dugme{
+        margin-left: 10%;
+        display: block;
+        font-size: 25px;
+    }
+    
+    .dugme:hover{
+        margin-left: 10%;
+        display: block; 
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .dugme{
+        margin-left: 18%;
+        font-size: 30px;
+    }
+    
+    .dugme:hover{
+        margin-left: 18%;
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .dugme{
+        margin-left: 20%;
+        font-size: 30px;
+    }
+    
+    .dugme:hover{
+        margin-left: 20%;
+        font-size: 30px;
+    }
+}
+
+.glavno .naslov{
+    padding-top: 25px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.glavno .pod{
+    padding-top: 15px;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
