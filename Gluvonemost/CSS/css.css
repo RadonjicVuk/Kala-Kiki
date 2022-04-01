@@ -29,8 +29,9 @@
 
 .sporedninaslov{
     padding-top:25px;
-    padding-left:30px;
+    padding-left:65px;
     font-size: 60px;
+    color:#7C99AC;
 }
 
 .sporednitext{
@@ -76,10 +77,11 @@
 
 
 .slikaa{
-    display: block;
+    display: inline-flex;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width:auto;
+    height:auto;
 }
 
 .gas{
@@ -134,28 +136,30 @@
 .dugme{
     font-size: 30px;
     text-align:center ;
-    margin-left: 30px;
-    margin-right: 25px;
+    margin-top: 10px;
+    margin-left: 25%;
     display: inline-block;
     padding: 25px;
-    background-color: black;
+    background-color: #7C99AC;
     color:white;
     text-decoration: none;
     transition:0.3s;
-    border: 1px solid black;
+    border: 1px solid #7C99AC;
+    width: auto;
 }
 
 .dugme:hover{
+    margin-left: 25%;
     font-size: 30px;
     text-align:center ;
-    margin-left: 30px;
-    margin-right: 25px;
     display: inline-block;
     padding: 25px;
     background-color:white;
-    color:black;
+    color:#7C99AC;
     text-decoration: none;
-    border: 1px solid black;
+    width: auto;
+    margin-top: 10px;
+    border: 1px solid #7C99AC;
 }
 
 .dole{
@@ -175,22 +179,42 @@
     margin-left:7% ;
 }
 
-@media only screen and (max-width: 1160px) {
-    .sporedninaslov{
-        padding-top:25px;
-        padding-left:30px;
+
+@media only screen and (min-width: 10px)and (max-width: 768px) {
+    .dugme{
+        margin-left: 10%;
+        display: block;
+        font-size: 25px;
+    }
+    
+    .dugme:hover{
+        margin-left: 10%;
+        display: block; 
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .dugme{
+        margin-left: 18%;
         font-size: 30px;
     }
-    .sporednitext{
-        font-size: 25px;
-        padding-top: 7px;      
+    
+    .dugme:hover{
+        margin-left: 18%;
+        font-size: 30px;
     }
-    .slika{
-        padding-top: 15px;
-        padding-left: 25%;
-        height: 50%;
-        width: 50%;
-        display: inline;
-        text-align: center;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .dugme{
+        margin-left: 20%;
+        font-size: 30px;
+    }
+    
+    .dugme:hover{
+        margin-left: 20%;
+        font-size: 30px;
     }
 }
