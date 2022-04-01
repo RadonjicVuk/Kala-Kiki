@@ -80,6 +80,7 @@
     .naslov{
         text-align: center;
         font-size: 30px;
+        color: #22577E;
     }
     .textispodnaslova{
         font-size: 20px;
@@ -96,6 +97,7 @@
     .naslov{
         text-align: center;
         font-size: 50px;
+        color: #22577E;
     }
     .textispodnaslova{
         font-size: 30px;
@@ -112,6 +114,7 @@
     .naslov{
         text-align: center;
         font-size: 60px;
+        color: #22577E;
     }
     .textispodnaslova{
         font-size: 40px;
@@ -129,8 +132,13 @@
     .naslov{
         text-align: center;
         font-size: 72px;
+        color: #22577E;
     }
     .textispodnaslova{
         font-size: 50px;
     }
+}
+
+body{
+    background-color: #D3DEDC;
 }
