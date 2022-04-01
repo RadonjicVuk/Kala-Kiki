@@ -80,8 +80,8 @@
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
-    width:auto;
-    height:auto;
+    width:500px;
+    height:500px;
 }
 
 .gas{
@@ -185,12 +185,20 @@
         margin-left: 10%;
         display: block;
         font-size: 25px;
+        margin-right: 10%;
     }
     
     .dugme:hover{
         margin-left: 10%;
         display: block; 
         font-size: 25px;
+    }
+    .slikaa{
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        width:250px;
+        height:250px;
     }
 }
 
@@ -199,10 +207,16 @@
         margin-left: 18%;
         font-size: 30px;
     }
-    
     .dugme:hover{
         margin-left: 18%;
         font-size: 30px;
+    }
+    .slikaa{
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        width:350px;
+        height:350px;
     }
 }
 
@@ -216,5 +230,12 @@
     .dugme:hover{
         margin-left: 20%;
         font-size: 30px;
+    }
+    .slikaa{
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        width:500px;
+        height:500px;
     }
 }

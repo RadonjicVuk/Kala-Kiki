@@ -34,6 +34,29 @@
     margin-right: 15px;
     padding: 10px;
 }
+.pola{
+    display: inline;
+    float: left;
+    width: 45%;
+    margin-left:25px;
+    padding-bottom: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.slikap{
+    width: 10px;
+    height: 10px;
+    margin: 25px;
+}
+
+.containerdj{
+    max-width: 75%;
+    text-align:justify;
+    margin-left:10%;
+}
 
 @media only screen and (min-width: 10px)and (max-width: 768px) {
     .test  {
@@ -54,6 +77,13 @@
         margin-left: 20%;
         display: block;
     }
+    .naslov{
+        text-align: center;
+        font-size: 30px;
+    }
+    .textispodnaslova{
+        font-size: 20px;
+    }
 }
 
 @media only screen and (min-width: 768px)and (max-width: 1040px) {
@@ -63,6 +93,13 @@
     .pocetak{
         padding-left: 0px;
     }
+    .naslov{
+        text-align: center;
+        font-size: 50px;
+    }
+    .textispodnaslova{
+        font-size: 30px;
+    }
 }
 
 @media only screen and (min-width: 1040px) and (max-width: 1200px) {
@@ -71,6 +108,13 @@
     }
     .pocetak{
         padding-left: 75px;
+    }
+    .naslov{
+        text-align: center;
+        font-size: 60px;
+    }
+    .textispodnaslova{
+        font-size: 40px;
     }
 }
 
@@ -82,30 +126,11 @@
     .pocetak{
         padding-left: 100px;
     }
-}
-
-.dobrodosli .p1{
-    padding-top: 25px;
-    font-size: 60px;
-    text-align: center;
-}
-
-.dobrodosli .p2{
-    padding-top: 15px;
-    font-size: 35px;
-    text-align: center;
-    padding-left: 300px;
-    padding-right: 300px;
-}
-
-.sveslike{
-    list-style: none;
-}
-
-.sveslike img{
-    list-style: none;
-    padding-top: 15px;
-    height: 20%;
-    width: 20%;
-    display: inline-block;
+    .naslov{
+        text-align: center;
+        font-size: 72px;
+    }
+    .textispodnaslova{
+        font-size: 50px;
+    }
 }

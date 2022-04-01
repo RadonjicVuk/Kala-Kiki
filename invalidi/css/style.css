@@ -35,10 +35,10 @@
     padding-top: 25px;
     text-align: center;
 }
-
-.slika img{
-    height: 360px;
-    width: 540px;
+.containerdj{
+    max-width: 75%;
+    text-align:justify;
+    margin-left:10%;
 }
 
 .opis{
@@ -83,12 +83,21 @@
         margin-left: 10%;
         display: block;
         font-size: 25px;
+        margin-right: 10%;
     }
     
     .dugme:hover{
         margin-left: 10%;
         display: block; 
         font-size: 25px;
+    }
+    .slikaa{
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        width:250px;
+        height:250px;
+        margin-top: 25px;
     }
 }
 
@@ -97,10 +106,17 @@
         margin-left: 18%;
         font-size: 30px;
     }
-    
     .dugme:hover{
         margin-left: 18%;
         font-size: 30px;
+    }
+    .slikaa{
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        width:350px;
+        height:350px;
+        margin-top: 25px;
     }
 }
 
@@ -115,7 +131,40 @@
         margin-left: 20%;
         font-size: 30px;
     }
+    .slikaa{
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        width:500px;
+        height:500px;
+        margin-top: 25px;
+    }
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 50000px) {
+    .test  {
+        padding-left: 300px;
+    }
+    .pocetak{
+        padding-left: 100px;
+    }
+    .naslov{
+        text-align: center;
+        font-size: 72px;
+    }
+    .textispodnaslova{
+        font-size: 50px;
+    }
+    .slikaa{
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        width:500px;
+        height:500px;
+        margin-top: 25px;
+    }
+}
+
 
 .glavno .naslov{
     padding-top: 25px;
